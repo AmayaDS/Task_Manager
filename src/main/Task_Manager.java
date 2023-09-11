@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 public class Task_Manager {
-
+    //arraylist to stor the tasks
     private static ArrayList<Task> tasks = new ArrayList<>();
     private static int tasksIdCounter = 1;
 
@@ -20,7 +20,7 @@ public class Task_Manager {
             System.out.println("4. Exit");
             System.out.println("What do you want to do?");
             int choice = scanner.nextInt();
-
+            //functionality accordin to the cohoice of the user
             switch (choice) {
                 case 1:
                     addTask(scanner);
