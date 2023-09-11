@@ -1,4 +1,6 @@
 package main;
+
+//task class
 public class Task {
     private int taskId;
     private String title;
@@ -13,8 +15,7 @@ public class Task {
         this.priority = priority;
         this.dueDate = dueDate;
     }
-    
-
+	
 	public int getTaskId(){
         return taskId;
     }
